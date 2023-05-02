@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "chef_picture_url": "https://example.com/chef1.jpg",
+      "chef_name": "Giuseppe Verdi",
+      "likes": 10000,
+      "number_of_recipes": 200,
+      "years_of_experience": 20,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef1.jpg",
+          "chef_name": "Giuseppe Verdi",
+          "likes": 10000,
+          "number_of_recipes": 200,
+          "years_of_experience": 20,
+          "description": "Giuseppe is a master Italian chef with over 20 years of experience. He is passionate about creating authentic Italian dishes using fresh, seasonal ingredients."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chef_picture_url": "https://example.com/chef2.jpg",
+      "chef_name": "Marie Curie",
+      "likes": 5000,
+      "number_of_recipes": 50,
+      "years_of_experience": 10,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef2.jpg",
+          "chef_name": "Marie Curie",
+          "likes": 5000,
+          "number_of_recipes": 50,
+          "years_of_experience": 10,
+          "description": "Marie is a chemist and physicist known for her pioneering work on radioactivity. In her free time, she enjoys experimenting with molecular gastronomy to create unique flavor combinations."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chef_picture_url": "https://example.com/chef3.jpg",
+      "chef_name": "Wolfgang Puck",
+      "likes": 15000,
+      "number_of_recipes": 300,
+      "years_of_experience": 30,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef3.jpg",
+          "chef_name": "Wolfgang Puck",
+          "likes": 15000,
+          "number_of_recipes": 300,
+          "years_of_experience": 30,
+          "description": "Wolfgang is an Austrian-born chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chef_picture_url": "https://example.com/chef4.jpg",
+      "chef_name": "Julia Child",
+      "likes": 20000,
+      "number_of_recipes": 150,
+      "years_of_experience": 25,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef4.jpg",
+          "chef_name": "Julia Child",
+          "likes": 20000,
+          "number_of_recipes": 150,
+          "years_of_experience": 25,
+          "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+        }
+      ]
+    },
+  
+    {
+      "id": 5,
+      "chef_picture_url": "https://example.com/chef4.jpg",
+      "chef_name": "Julia Child",
+      "likes": 20000,
+      "number_of_recipes": 150,
+      "years_of_experience": 25,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef4.jpg",
+          "chef_name": "Julia Child",
+          "likes": 20000,
+          "number_of_recipes": 150,
+          "years_of_experience": 25,
+          "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+        }
+      ]
+    },
+  
+    {
+      "id": 6,
+      "chef_picture_url": "https://example.com/chef4.jpg",
+      "chef_name": "Julia Child",
+      "likes": 20000,
+      "number_of_recipes": 150,
+      "years_of_experience": 25,
+      "details": [
+        {
+          "chef_picture_url": "https://example.com/chef4.jpg",
+          "chef_name": "Julia Child",
+          "likes": 20000,
+          "number_of_recipes": 150,
+          "years_of_experience": 25,
+          "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+        }
+      ]
+    }
+  ]
+  
