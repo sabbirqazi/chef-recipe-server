@@ -3,111 +3,254 @@
     "chefs": [
       {
         "id": 1,
-        "chef_picture_url": "https://example.com/chef1.jpg",
+        "chef_picture_url": "https://i.ibb.co/MGh3mPJ/portrait-male-chef-kitchen-holding-plate-food.jpg",
         "chef_name": "Giuseppe Verdi",
         "likes": 10000,
         "number_of_recipes": 200,
         "years_of_experience": 20,
+        
         "details": [
-          {
-            "chef_picture_url": "https://example.com/chef1.jpg",
+          { "id": 1,
+            "chef_picture_url": "https://i.ibb.co/MGh3mPJ/portrait-male-chef-kitchen-holding-plate-food.jpg",
             "chef_name": "Giuseppe Verdi",
             "likes": 10000,
             "number_of_recipes": 200,
             "years_of_experience": 20,
             "description": "Giuseppe is a master Italian chef with over 20 years of experience. He is passionate about creating authentic Italian dishes using fresh, seasonal ingredients."
           }
+        ],
+        "recipes" : [
+          {
+            "id": 1,
+            "name": "Pesto Pasta",
+            "ingredients": "1 lb spaghetti, 2 cups fresh basil leaves, 1/2 cup pine nuts, 3 cloves garlic, 1/2 cup grated Parmesan cheese, 1/2 cup olive oil",
+            "cooking_method": "1. Cook the spaghetti according to package instructions. \n2. In a food processor, combine the basil leaves, pine nuts, garlic, and Parmesan cheese. Pulse until coarsely chopped. \n3. With the food processor running, slowly pour in the olive oil until the mixture is smooth. \n4. Drain the spaghetti and toss with the pesto sauce. \n5. Serve hot or at room temperature.",
+            "rating": 4.7
+          },
+          {
+            "id": 2,
+            "name": "Chicken Parmesan",
+            "ingredients": "4 boneless, skinless chicken breasts, 1/2 cup all-purpose flour, 2 eggs, beaten, 1 cup seasoned breadcrumbs, 1/2 cup grated Parmesan cheese, 1 cup tomato sauce, 1 cup shredded mozzarella cheese, 1/4 cup chopped fresh basil, Salt and pepper, Olive oil",
+            "cooking_method": "1. Preheat the oven to 375°F. \n2. Season the chicken breasts with salt and pepper. \n3. Dredge the chicken in the flour, then dip in the beaten eggs. \n4. In a shallow dish, combine the breadcrumbs and Parmesan cheese. Dredge the chicken in the breadcrumb mixture. \n5. Heat the olive oil in a large skillet over medium-high heat. Add the chicken and cook until browned on both sides. \n6. Transfer the chicken to a baking dish. \n7. Pour the tomato sauce over the chicken, then sprinkle with mozzarella cheese. \n8. Bake for 25-30 minutes, until the cheese is melted and bubbly. \n9. Top with chopped fresh basil before serving.",
+            "rating": 4.9
+          },
+          {
+            "id": 3,
+            "name": "Minestrone Soup",
+            "ingredients": "1 onion, diced, 2 carrots, diced, 2 stalks celery, diced, 2 cloves garlic, minced, 1 can diced tomatoes, 1 can kidney beans, drained and rinsed, 1 cup chopped kale, 6 cups chicken or vegetable broth, 1 tsp dried basil, 1 tsp dried oregano, 1/2 cup small pasta, Salt and pepper, Olive oil",
+            "cooking_method": "1. Heat the olive oil in a large pot over medium heat. \n2. Add the onion, carrots, celery, and garlic. Cook until softened. \n3. Add the diced tomatoes, kidney beans, kale, broth, basil, and oregano. \n4. Bring to a boil, then reduce heat and simmer for 20-30 minutes. \n5. Add the pasta and cook for an additional 10-15 minutes, until the pasta is tender. \n6. Season with salt and pepper to taste. \n7. Serve hot with crusty bread.",
+            "rating": 4.5
+          }
         ]
       },
+      
       {
         "id": 2,
-        "chef_picture_url": "https://example.com/chef2.jpg",
-        "chef_name": "Marie Curie",
+        "chef_picture_url": "https://i.ibb.co/9qw86Wv/happy-cook-pouring-sauce-plate-with-salad.jpg",
+        "chef_name": "Henry Wolf",
         "likes": 5000,
         "number_of_recipes": 50,
         "years_of_experience": 10,
         "details": [
           {
-            "chef_picture_url": "https://example.com/chef2.jpg",
-            "chef_name": "Marie Curie",
+             "id": 2,
+            "chef_picture_url": "https://i.ibb.co/9qw86Wv/happy-cook-pouring-sauce-plate-with-salad.jpg",
+            "chef_name": "Henry Wolf",
             "likes": 5000,
             "number_of_recipes": 50,
             "years_of_experience": 10,
-            "description": "Marie is a chemist and physicist known for her pioneering work on radioactivity. In her free time, she enjoys experimenting with molecular gastronomy to create unique flavor combinations."
+            "description": "Henry is an  Ialian chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
+          }
+        ],
+        "recipes":[
+          {
+            "id": 5,
+            "name": "Margherita Pizza",
+            "ingredients": "1 lb pizza dough, 1/2 cup tomato sauce, 8 oz fresh mozzarella cheese, sliced, 6-8 basil leaves, torn, Salt and pepper, Olive oil",
+            "cooking_method": "1. Preheat the oven to 475°F. \n2. Roll out the pizza dough on a floured surface. \n3. Transfer the dough to a lightly oiled pizza pan. \n4. Spread the tomato sauce over the dough, leaving a 1/2-inch border around the edges. \n5. Arrange the sliced mozzarella cheese over the tomato sauce. \n6. Sprinkle with torn basil leaves. \n7. Drizzle with olive oil and season with salt and pepper. \n8. Bake for 10-12 minutes, until the crust is golden brown and the cheese is melted and bubbly. \n9. Slice and serve hot.",
+            "rating": 4.6
+          },
+          {
+            "id": 5,
+            "name": "Margherita Pizza",
+            "ingredients": "1 lb pizza dough, 1/2 cup tomato sauce, 8 oz fresh mozzarella cheese, sliced, 6-8 basil leaves, torn, Salt and pepper, Olive oil",
+            "cooking_method": "1. Preheat the oven to 475°F. \n2. Roll out the pizza dough on a floured surface. \n3. Transfer the dough to a lightly oiled pizza pan. \n4. Spread the tomato sauce over the dough, leaving a 1/2-inch border around the edges. \n5. Arrange the sliced mozzarella cheese over the tomato sauce. \n6. Sprinkle with torn basil leaves. \n7. Drizzle with olive oil and season with salt and pepper. \n8. Bake for 10-12 minutes, until the crust is golden brown and the cheese is melted and bubbly. \n9. Slice and serve hot.",
+            "rating": 4.6
+          },
+          {
+            "id": 6,
+            "name": "Lasagna",
+            "ingredients": "1 lb lasagna noodles, 2 cups ricotta cheese, 1 egg, 1/2 cup grated Parmesan cheese, 2 cups shredded mozzarella cheese, 1 lb ground beef, 1 onion, diced, 2 cloves garlic, minced, 1 can crushed tomatoes, 1 can tomato sauce, 1 tsp dried basil, 1 tsp dried oregano, Salt and pepper, Olive oil",
+            "cooking_method": "1. Cook the lasagna noodles according to package instructions. \n2. In a bowl, combine the ricotta cheese, egg, and Parmesan cheese. \n3. In a large skillet, heat the olive oil over medium-high heat. Add the onion and garlic and cook until softened. \n4. Add the ground beef and cook until browned. \n5. Add the crushed tomatoes, tomato sauce, basil, and oregano. ",
+            "rating": 4.9
           }
         ]
       },
       {
         "id": 3,
-        "chef_picture_url": "https://example.com/chef3.jpg",
+        "chef_picture_url": "https://i.ibb.co/VmBZ8F7/handsome-chef-sniffing-smell-cooked-dish.jpg",
         "chef_name": "Wolfgang Puck",
         "likes": 15000,
         "number_of_recipes": 300,
         "years_of_experience": 30,
         "details": [
-          {
-            "chef_picture_url": "https://example.com/chef3.jpg",
+          { 
+            "id": 3,
+            "chef_picture_url": "https://i.ibb.co/VmBZ8F7/handsome-chef-sniffing-smell-cooked-dish.jpg",
             "chef_name": "Wolfgang Puck",
             "likes": 15000,
             "number_of_recipes": 300,
             "years_of_experience": 30,
-            "description": "Wolfgang is an Austrian-born chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
+            "description": "Wolfgang is an Austrian-born Ialian chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
+          }
+        ],
+        "recipes":[
+          {
+            "id": 7,
+            "name": "Risotto",
+            "ingredients": "2 cups Arborio rice, 1/2 cup white wine, 4 cups chicken broth, 1 onion, diced, 2 cloves garlic, minced, 1/2 cup grated Parmesan cheese, 2 tbsp butter, Salt and pepper, Olive oil",
+            "cooking_method": "1. In a large saucepan, heat the chicken broth over low heat. \n2. In a separate saucepan, heat the olive oil over medium-high heat. Add the onion and garlic and cook until softened. \n3. Add the Arborio rice to the saucepan and stir until the rice is coated in the oil. \n4. Pour in the white wine and stir until the wine is absorbed. \n5. Add a ladleful of the hot chicken broth to the rice and stir until the broth is absorbed. \n6. Continue adding ladlefuls of broth and stirring until the rice is tender and the mixture is creamy. This should take about 20-25 minutes. \n7. Stir in the Parmesan cheese and butter. \n8. Season with salt and pepper. \n9. Serve hot.",
+            "rating": 4.7
+          },
+          {
+            "id": 8,
+            "name": "Spaghetti Carbonara",
+            "ingredients": "1 lb spaghetti, 6 oz pancetta or bacon, diced, 4 eggs, 1/2 cup grated Parmesan cheese, 1/4 cup grated Pecorino Romano cheese, 4 cloves garlic, minced, Salt and pepper, Olive oil",
+            "cooking_method": "1. Cook the spaghetti according to package instructions. \n2. In a large skillet, heat the olive oil over medium-high heat. Add the pancetta or bacon and cook until crisp. \n3. Add the garlic and cook for another minute. \n4. In a bowl, beat the eggs with the Parmesan cheese and Pecorino Romano cheese. \n5. Drain the spaghetti and add it to the skillet with the pancetta or bacon. \n6. Remove the skillet from the heat and pour the egg mixture over the spaghetti. \n7. Toss the spaghetti with the egg mixture until the spaghetti is coated and the eggs are cooked. \n8. Season with salt and pepper. \n9. Serve hot.",
+            "rating": 4.8
+          },
+          {
+            "id": 9,
+            "name": "Pesto",
+            "ingredients": "2 cups fresh basil leaves, 1/2 cup grated Parmesan cheese, 1/2 cup pine nuts, 3 cloves garlic, minced, 1/2 cup olive oil, Salt and pepper",
+            "cooking_method": "1. In a food processor, pulse the basil leaves, Parmesan cheese, pine nuts, and garlic until finely chopped. \n2. With the motor running, slowly pour in the olive oil until the pesto is smooth and creamy. \n3. Season with salt and pepper to taste. \n4. Use immediately, or store in an airtight container in the refrigerator for up to 1 week.",
+            "rating": 4.5
           }
         ]
       },
       {
         "id": 4,
-        "chef_picture_url": "https://example.com/chef4.jpg",
-        "chef_name": "Julia Child",
+        "chef_picture_url": "https://i.ibb.co/0y00FJ9/close-up-chef-decorating-dish-after-cooking.jpg",
+        "chef_name": "Oliver Duke",
         "likes": 20000,
         "number_of_recipes": 150,
         "years_of_experience": 25,
         "details": [
           {
-            "chef_picture_url": "https://example.com/chef4.jpg",
-            "chef_name": "Julia Child",
+            "id": 4,
+            "chef_picture_url": "https://i.ibb.co/0y00FJ9/close-up-chef-decorating-dish-after-cooking.jpg",
+            "chef_name": "Oliver Duke",
             "likes": 20000,
             "number_of_recipes": 150,
             "years_of_experience": 25,
-            "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+            "description": "Oliver was an Italian  chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+          }
+        ],
+        "recipes":[
+          {
+            "id": 10,
+            "name": "Osso Buco",
+            "ingredients": "4 veal shanks, 1 onion, diced, 2 carrots, diced, 2 celery stalks, diced, 4 cloves garlic, minced, 1 cup beef broth, 1 cup white wine",  "cooking_method": "1. Preheat the oven to 375°F. \n2. In a large Dutch oven or oven-safe pot, heat the olive oil over medium-high heat. \n3. Season the veal shanks with salt and pepper and add them to the pot. Cook for 4-5 minutes on each side, until browned. \n4. Remove the veal shanks from the pot and set them aside. \n5. Add the onion, carrots, celery, and garlic to the pot and cook until softened. \n6. Pour in the beef broth, white wine, and diced tomatoes. \n7. Add the bay leaf and chopped thyme. \n8. Return the veal shanks to the pot, making sure they are submerged in the liquid. \n9. Cover the pot with a lid and place it in the preheated oven. Cook for 2-3 hours, until the veal is tender and falling off the bone. \n10. Serve hot with the sauce spooned over the top of the veal.",
+            "rating": 4.9
+          },
+          {
+            "id": 11,
+            "name": "Tiramisu",
+            "ingredients": "6 egg yolks, 3/4 cup sugar, 2/3 cup milk, 1 1/4 cups heavy cream, 1/2 tsp vanilla extract, 1 lb mascarpone cheese, 1/2 cup strong brewed coffee, 2 tbsp rum, 24-30 ladyfingers, Cocoa powder",
+            "cooking_method": "1. In a large bowl, whisk together the egg yolks and sugar until the mixture is pale yellow and thick. \n2. In a saucepan, heat the milk over medium heat until it begins to steam. \n3. Slowly pour the hot milk into the egg yolk mixture, whisking constantly. \n4. Pour the mixture back into the saucepan and cook over low heat, stirring constantly, until it thickens enough to coat the back of a spoon. This should take about 5-7 minutes. \n5. Remove the mixture from the heat and let it cool completely. \n6. In a separate bowl, beat the heavy cream and vanilla extract until stiff peaks form. \n7. In another bowl, beat the mascarpone cheese until smooth. \n8. Gently fold the whipped cream into the mascarpone cheese. \n9. Combine the coffee and rum in a shallow dish. \n10. Dip the ladyfingers into the coffee mixture and arrange them in the bottom of a 9x13 inch dish. \n11. Spread half of the mascarpone mixture over the ladyfingers. \n12. Repeat with another layer of coffee-dipped ladyfingers and the remaining mascarpone mixture. \n13. Cover the dish with plastic wrap and refrigerate for at least 2 hours, or overnight. \n14. Before serving, dust the top of the tiramisu with cocoa powder. ",
+            "rating": 4.7
+          },{
+            "id": 12,
+            "name": "Pesto Pasta",
+            "ingredients": "12 oz pasta, 2 cups fresh basil leaves, 1/2 cup pine nuts, 1/2 cup grated parmesan cheese, 3 cloves garlic, 1/2 cup olive oil, Salt and pepper",
+            "cooking_method": "1. Cook the pasta in a large pot of boiling salted water until al dente. Drain and set aside.\n2. In a food processor, combine the basil leaves, pine nuts, parmesan cheese, and garlic. Pulse until finely chopped.\n3. With the motor running, slowly pour in the olive oil until a smooth paste forms. Season with salt and pepper to taste.\n4. Toss the pasta with the pesto until evenly coated. Serve hot.",
+            "rating": 4.7
           }
         ]
       },
 
       {
         "id": 5,
-        "chef_picture_url": "https://example.com/chef4.jpg",
+        "chef_picture_url": "https://i.ibb.co/GR6MPL9/close-up-chef-cooking-restaurant-kitchen.jpg",
         "chef_name": "Julia Child",
         "likes": 20000,
         "number_of_recipes": 150,
         "years_of_experience": 25,
         "details": [
           {
-            "chef_picture_url": "https://example.com/chef4.jpg",
+            "id": 5,
+            "chef_picture_url": "https://i.ibb.co/GR6MPL9/close-up-chef-cooking-restaurant-kitchen.jpg",
             "chef_name": "Julia Child",
             "likes": 20000,
             "number_of_recipes": 150,
             "years_of_experience": 25,
-            "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+            "description": "Julia was an Italian chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+          }
+        ],
+        "recipes":[
+          {
+            "id": 13,
+            "name": "Caprese Salad",
+            "ingredients": "4 ripe tomatoes, sliced, 8 oz fresh mozzarella cheese, sliced, 1/2 cup fresh basil leaves, 2 tbsp balsamic vinegar, 2 tbsp olive oil, Salt and pepper",
+            "cooking_method": "1. Arrange the tomato slices on a serving platter.\n2. Top each tomato slice with a slice of fresh mozzarella cheese.\n3. Sprinkle the basil leaves over the top of the cheese.\n4. Drizzle the balsamic vinegar and olive oil over the top of the salad.\n5. Season with salt and pepper to taste. Serve at room temperature.",
+            "rating": 4.7
+          },
+          {
+            "id": 14,
+            "name": "Chicken Marsala",
+            "ingredients": "4 boneless, skinless chicken breasts, 1/2 cup flour, Salt and pepper, 4 tbsp butter, 4 tbsp olive oil, 8 oz mushrooms, sliced, 1 cup Marsala wine, 1/2 cup chicken broth",
+            "cooking_method": "1. Place the flour in a shallow dish and season with salt and pepper to taste.\n2. Dredge each chicken breast in the seasoned flour.\n3. In a large skillet, heat the butter and olive oil over medium-high heat.\n4. Add the chicken breasts to the skillet and cook until golden brown on both sides, about 3-4 minutes per side.\n5. Remove the chicken from the skillet and set aside.\n6. Add the mushrooms to the skillet and cook until softened and golden brown, about 5 minutes.\n7. Pour in the Marsala wine and chicken broth, scraping the bottom of the skillet to loosen any browned bits.\n8. Return the chicken to the skillet and let it simmer in the sauce until cooked through, about 10-15 minutes.\n9. Serve hot.",
+            "rating": 4.7
+          },
+          {
+            "id": 15,
+            "name": "Risotto",
+            "ingredients": "1 1/2 cups Arborio rice, 1 onion, finely chopped, 4 cups chicken broth, 1/2 cup dry white wine, 1/2 cup grated Parmesan cheese, 2 tbsp butter, Salt and pepper",
+            "cooking_method": "1. In a large saucepan, bring the chicken broth to a simmer and keep warm.\n2. In another large saucepan, melt the butter over medium heat.\n3. Add the onion to the pan and cook until soft and translucent, about 5 minutes.\n4. Add the Arborio rice to the pan and stir to coat with the butter and onion mixture.\n5. Pour in the white wine and stir until the ",
+            "rating": 4.7
           }
         ]
       },
 
       {
         "id": 6,
-        "chef_picture_url": "https://example.com/chef4.jpg",
-        "chef_name": "Julia Child",
+        "chef_picture_url": "https://i.ibb.co/3M6rsBz/close-up-chef-cooking-restaurant-kitchen-1.jpg",
+        "chef_name": "Winston Bill",
         "likes": 20000,
         "number_of_recipes": 150,
         "years_of_experience": 25,
         "details": [
-          {
-            "chef_picture_url": "https://example.com/chef4.jpg",
-            "chef_name": "Julia Child",
+          { 
+            "id": 6,
+            "chef_picture_url": "https://i.ibb.co/3M6rsBz/close-up-chef-cooking-restaurant-kitchen-1.jpg",
+            "chef_name": "Winston Bill",
             "likes": 20000,
             "number_of_recipes": 150,
             "years_of_experience": 25,
-            "description": "Julia was an American chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+            "description": "Winston was an Italian chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
+          }
+        ],
+        "recipes":[
+          {
+            "id": 16,
+            "name": "Bruschetta",
+            "ingredients": "1 loaf Italian bread, sliced, 3 ripe tomatoes, chopped, 3 cloves garlic, minced, 1/4 cup chopped fresh basil leaves, 2 tbsp balsamic vinegar, 2 tbsp olive oil, Salt and pepper",
+            "cooking_method": "1. Preheat the oven to 375°F.\n2. Arrange the bread slices on a baking sheet and toast in the oven until lightly golden brown, about 5-7 minutes.\n3. In a mixing bowl, combine the chopped tomatoes, garlic, basil leaves, balsamic vinegar, olive oil, and season with salt and pepper to taste.\n4. Spoon the tomato mixture over the toasted bread slices.\n5. Serve as an appetizer or a light lunch.",
+            "rating": 4.7
+          },
+          {
+            "id": 17,
+            "name": "Osso Buco",
+            "ingredients": "4 veal shanks, 1/2 cup flour, Salt and pepper, 4 tbsp butter, 4 tbsp olive oil, 1 onion, finely chopped, 2 carrots, peeled and chopped, 2 celery stalks, chopped, 4 cloves garlic, minced, 2 cups beef broth, 1 cup dry white wine, 1 can (14 oz) diced tomatoes, drained, 1 tbsp chopped fresh parsley",
+            "cooking_method": "1. Preheat the oven to 350°F.\n2. Season the veal shanks with salt and pepper, then dredge them in the flour, shaking off any excess.\n3. In a large Dutch oven, heat the butter and olive oil over medium-high heat.\n4. Add the veal shanks to the pot and cook until browned on all sides, about 5 minutes per side.\n5. Remove the veal from the pot and set aside.\n6. Add the onion, carrots, celery, and garlic to the pot and cook until softened, about 5 minutes.\n7. Pour in the beef broth, white wine, and diced tomatoes, scraping the bottom of the pot to loosen any browned bits.\n8. Return the veal shanks to the pot and bring the liquid to a simmer.\n9. Cover the pot and transfer it to the oven.\n10. Bake until the meat is tender and falling off the bone, about 2-3 hours.\n11. Sprinkle the chopped parsley over the top of the osso buco and serve hot.",
+            "rating": 4.7
+          },
+          {
+            "id": 18,
+            "name": "Tiramisu",
+            "ingredients": "6 egg yolks, 3/4 cup sugar, 2/3 cup milk, 1 1/4 cups heavy cream, 1/2 tsp vanilla extract, 1 lb mascarpone cheese, 1/4 cup strong brewed coffee, 2 tbsp rum, 24 ladyfingers, Cocoa powder for dusting",
+            "cooking_method": "1. In a mixing bowl, whisk together the egg yolks and sugar until pale and thick.\n2. In a saucepan, heat the milk over medium heat until it comes to a simmer.\n3. Gradually pour the hot milk into the egg mixture, whisking constantly.\n4. Return the mixture to the saucepan and cook over low heat, stirring constantly, until the mixture thickens enough to coat the back of a spoon.\n5. Remove the pan from the heat and let the mixture cool to room temperature.\n6. In a separate mixing bowl, beat the heavy cream",
+            "rating": 4.7
           }
         ]
       }

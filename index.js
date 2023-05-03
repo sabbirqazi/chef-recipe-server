@@ -14,6 +14,7 @@ app.get('/allData', (req, res) => {
 });
 app.get('/allData/:id', (req, res) => {
 const id = req.params.id;
+console.log(id)
 const items = allChefs[0]?.chefs?.find((item) => item.id ==id)
 res.send({items})
 })
