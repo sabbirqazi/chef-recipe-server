@@ -8,9 +8,10 @@
         "likes": 10000,
         "number_of_recipes": 200,
         "years_of_experience": 20,
-        
+
         "details": [
-          { "id": 1,
+          {
+            "id": 1,
             "chef_picture_url": "https://i.ibb.co/MGh3mPJ/portrait-male-chef-kitchen-holding-plate-food.jpg",
             "chef_name": "Giuseppe Verdi",
             "likes": 10000,
@@ -19,7 +20,7 @@
             "description": "Giuseppe is a master Italian chef with over 20 years of experience. He is passionate about creating authentic Italian dishes using fresh, seasonal ingredients."
           }
         ],
-        "recipes" : [
+        "recipes": [
           {
             "id": 1,
             "name": "Pesto Pasta",
@@ -43,7 +44,7 @@
           }
         ]
       },
-      
+
       {
         "id": 2,
         "chef_picture_url": "https://i.ibb.co/9qw86Wv/happy-cook-pouring-sauce-plate-with-salad.jpg",
@@ -53,7 +54,7 @@
         "years_of_experience": 10,
         "details": [
           {
-             "id": 2,
+            "id": 2,
             "chef_picture_url": "https://i.ibb.co/9qw86Wv/happy-cook-pouring-sauce-plate-with-salad.jpg",
             "chef_name": "Henry Wolf",
             "likes": 5000,
@@ -62,7 +63,7 @@
             "description": "Henry is an  Ialian chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
           }
         ],
-        "recipes":[
+        "recipes": [
           {
             "id": 5,
             "name": "Margherita Pizza",
@@ -94,7 +95,7 @@
         "number_of_recipes": 300,
         "years_of_experience": 30,
         "details": [
-          { 
+          {
             "id": 3,
             "chef_picture_url": "https://i.ibb.co/VmBZ8F7/handsome-chef-sniffing-smell-cooked-dish.jpg",
             "chef_name": "Wolfgang Puck",
@@ -104,7 +105,7 @@
             "description": "Wolfgang is an Austrian-born Ialian chef and restaurateur known for his fusion cuisine. He has won numerous awards and has appeared on many cooking shows."
           }
         ],
-        "recipes":[
+        "recipes": [
           {
             "id": 7,
             "name": "Risotto",
@@ -146,11 +147,12 @@
             "description": "Oliver was an Italian  chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
           }
         ],
-        "recipes":[
+        "recipes": [
           {
             "id": 10,
             "name": "Osso Buco",
-            "ingredients": "4 veal shanks, 1 onion, diced, 2 carrots, diced, 2 celery stalks, diced, 4 cloves garlic, minced, 1 cup beef broth, 1 cup white wine",  "cooking_method": "1. Preheat the oven to 375°F. \n2. In a large Dutch oven or oven-safe pot, heat the olive oil over medium-high heat. \n3. Season the veal shanks with salt and pepper and add them to the pot. Cook for 4-5 minutes on each side, until browned. \n4. Remove the veal shanks from the pot and set them aside. \n5. Add the onion, carrots, celery, and garlic to the pot and cook until softened. \n6. Pour in the beef broth, white wine, and diced tomatoes. \n7. Add the bay leaf and chopped thyme. \n8. Return the veal shanks to the pot, making sure they are submerged in the liquid. \n9. Cover the pot with a lid and place it in the preheated oven. Cook for 2-3 hours, until the veal is tender and falling off the bone. \n10. Serve hot with the sauce spooned over the top of the veal.",
+            "ingredients": "4 veal shanks, 1 onion, diced, 2 carrots, diced, 2 celery stalks, diced, 4 cloves garlic, minced, 1 cup beef broth, 1 cup white wine",
+            "cooking_method": "1. Preheat the oven to 375°F. \n2. In a large Dutch oven or oven-safe pot, heat the olive oil over medium-high heat. \n3. Season the veal shanks with salt and pepper and add them to the pot. Cook for 4-5 minutes on each side, until browned. \n4. Remove the veal shanks from the pot and set them aside. \n5. Add the onion, carrots, celery, and garlic to the pot and cook until softened. \n6. Pour in the beef broth, white wine, and diced tomatoes. \n7. Add the bay leaf and chopped thyme. \n8. Return the veal shanks to the pot, making sure they are submerged in the liquid. \n9. Cover the pot with a lid and place it in the preheated oven. Cook for 2-3 hours, until the veal is tender and falling off the bone. \n10. Serve hot with the sauce spooned over the top of the veal.",
             "rating": 4.9
           },
           {
@@ -159,7 +161,8 @@
             "ingredients": "6 egg yolks, 3/4 cup sugar, 2/3 cup milk, 1 1/4 cups heavy cream, 1/2 tsp vanilla extract, 1 lb mascarpone cheese, 1/2 cup strong brewed coffee, 2 tbsp rum, 24-30 ladyfingers, Cocoa powder",
             "cooking_method": "1. In a large bowl, whisk together the egg yolks and sugar until the mixture is pale yellow and thick. \n2. In a saucepan, heat the milk over medium heat until it begins to steam. \n3. Slowly pour the hot milk into the egg yolk mixture, whisking constantly. \n4. Pour the mixture back into the saucepan and cook over low heat, stirring constantly, until it thickens enough to coat the back of a spoon. This should take about 5-7 minutes. \n5. Remove the mixture from the heat and let it cool completely. \n6. In a separate bowl, beat the heavy cream and vanilla extract until stiff peaks form. \n7. In another bowl, beat the mascarpone cheese until smooth. \n8. Gently fold the whipped cream into the mascarpone cheese. \n9. Combine the coffee and rum in a shallow dish. \n10. Dip the ladyfingers into the coffee mixture and arrange them in the bottom of a 9x13 inch dish. \n11. Spread half of the mascarpone mixture over the ladyfingers. \n12. Repeat with another layer of coffee-dipped ladyfingers and the remaining mascarpone mixture. \n13. Cover the dish with plastic wrap and refrigerate for at least 2 hours, or overnight. \n14. Before serving, dust the top of the tiramisu with cocoa powder. ",
             "rating": 4.7
-          },{
+          },
+          {
             "id": 12,
             "name": "Pesto Pasta",
             "ingredients": "12 oz pasta, 2 cups fresh basil leaves, 1/2 cup pine nuts, 1/2 cup grated parmesan cheese, 3 cloves garlic, 1/2 cup olive oil, Salt and pepper",
@@ -171,7 +174,7 @@
 
       {
         "id": 5,
-        "chef_picture_url": "https://i.ibb.co/GR6MPL9/close-up-chef-cooking-restaurant-kitchen.jpg",
+        "chef_picture_url": "https://i.ibb.co/d2VTxFX/front-view-male-chef-holding-dish.jpg",
         "chef_name": "Julia Child",
         "likes": 20000,
         "number_of_recipes": 150,
@@ -179,7 +182,7 @@
         "details": [
           {
             "id": 5,
-            "chef_picture_url": "https://i.ibb.co/GR6MPL9/close-up-chef-cooking-restaurant-kitchen.jpg",
+            "chef_picture_url": "https://i.ibb.co/d2VTxFX/front-view-male-chef-holding-dish.jpg",
             "chef_name": "Julia Child",
             "likes": 20000,
             "number_of_recipes": 150,
@@ -187,7 +190,7 @@
             "description": "Julia was an Italian chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
           }
         ],
-        "recipes":[
+        "recipes": [
           {
             "id": 13,
             "name": "Caprese Salad",
@@ -214,15 +217,15 @@
 
       {
         "id": 6,
-        "chef_picture_url": "https://i.ibb.co/3M6rsBz/close-up-chef-cooking-restaurant-kitchen-1.jpg",
+        "chef_picture_url": "https://i.ibb.co/phWYSCy/medium-shot-smiley-man-with-tablet.jpg",
         "chef_name": "Winston Bill",
         "likes": 20000,
         "number_of_recipes": 150,
         "years_of_experience": 25,
         "details": [
-          { 
+          {
             "id": 6,
-            "chef_picture_url": "https://i.ibb.co/3M6rsBz/close-up-chef-cooking-restaurant-kitchen-1.jpg",
+            "chef_picture_url": "https://i.ibb.co/phWYSCy/medium-shot-smiley-man-with-tablet.jpg",
             "chef_name": "Winston Bill",
             "likes": 20000,
             "number_of_recipes": 150,
@@ -230,7 +233,7 @@
             "description": "Winston was an Italian chef, author, and television personality who introduced French cuisine to the American public. She wrote several cookbooks and hosted several cooking shows."
           }
         ],
-        "recipes":[
+        "recipes": [
           {
             "id": 16,
             "name": "Bruschetta",
